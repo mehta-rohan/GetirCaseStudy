@@ -13,7 +13,7 @@ To test
 
 Sample request:
 
-curl --location --request POST 'https://getircasestudyrohanmehta.herokuapp.com/api/getData' \--header 'Content-Type: application/json' \--data-raw '{"startDate": "2019-91","endDate": "2018-11-9","minCount": 1800,"maxCount": 2000}'
+curl --location --request POST 'https://getircasestudyrohanmehta.herokuapp.com/api/getData' \--header 'Content-Type: application/json' \--data-raw '{"startDate": "2016-9-01","endDate": "2018-11-9","minCount": 1800,"maxCount": 2000}'
 
 Expected Out Put:
 
