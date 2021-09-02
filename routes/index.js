@@ -50,8 +50,9 @@ router.post('/', (req, res, next) => {
         totalCount: {
           $sum: "$counts"
         },
+        createdAt:1,
         key: 1,
-        value: 1,
+        // value: 1,
         // counts: 1
       }
     }, {
